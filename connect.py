@@ -13,7 +13,7 @@ class connecter():
         location = input('please give me your destination:')
         if location =='home':
             self.name = 'home'
-            self.IP = '96.255.71.162'
+            self.IP = '72.66.111.163'
             self.username = 'peterchan'
             self.passcode = '/users/chanpc/.ssh/id_rsa'
         elif location == 'AWS':
